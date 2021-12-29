@@ -60,3 +60,13 @@ Profile : default
     - http://projects.spring.io/spring-cloud/
 
 ------------------------------------------------------------------------------------------------------------------------
+### How to RUN
+- Download the repo using git url : https://github.com/kaur-vandana/kv.REST-SpringCloudConfigServer-JPA.git 
+- install Git and follow the following
+    - - cd kv.REST-SpringCloudConfigServer-JPA\spring-cloud-config-server\config
+    - git init
+    - git add *
+    - git commit -m "property files"
+- Run the SpringCloudConfigServer
+- Run the Limit service
+- hit the request using POSTMAN 
