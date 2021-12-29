@@ -1,0 +1,107 @@
+{
+	"info": {
+		"_postman_id": "30fca085-b872-4ef4-9819-7e2f500c0d02",
+		"name": "Limits service",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "retrieve Limits",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/limits",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"limits"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "retrieve Limits with config",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/limits-config",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"limits-config"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "spring-cloud-config-server - {Profile - default}",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8888/limits-service/default",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8888",
+					"path": [
+						"limits-service",
+						"default"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "spring-cloud-config-server - {Profile - dev}",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8888/limits-service/dev",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8888",
+					"path": [
+						"limits-service",
+						"dev"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "spring-cloud-config-server - {Profile - qa}",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8888/limits-service/qa",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8888",
+					"path": [
+						"limits-service",
+						"qa"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
