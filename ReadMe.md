@@ -31,6 +31,12 @@
 - Create Local Git Repository - git-localconfig-repo
 - add limits-service.properties to it
 
+
+- cd kv.REST-SpringCloudConfigServer-JPA\spring-cloud-config-server\config
+- git init
+- git add *
+- git commit -m "property files"
+
 ------------------------------------------------------------------------------------------------------------------------
 
 http://localhost:8888/limits-service/default
